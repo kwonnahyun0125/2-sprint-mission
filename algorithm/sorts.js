@@ -64,8 +64,6 @@ function partition(arr, left, right, pivot) {
   return left;
 }
 
-module.exports = { selectionSort, insertionSort, mergeSort, quickSort };
-
 
 if (require.main === module) {
   const readline = require("readline");
